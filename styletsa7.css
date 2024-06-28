@@ -1,0 +1,116 @@
+body {
+    font-family: Arial;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-main {
+    font-family: Arial;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.container-secondary {
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 420px;
+    height: 760px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.custom-box {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 5px;
+}
+
+#customBox1 {
+    background-color: rgb(236, 193, 229);
+}
+
+#customBox2 {
+    background-color: #ff4646;
+}
+
+#customBox3 {
+    background-color: #f1ae70;
+}
+
+#customBox1, #customBox2, #customBox3 {
+    font-size: 50px;
+}
+
+.button {
+    font-family: Arial;
+    background-color: rgb(154, 192, 143);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #a86add;
+}
+
+.main-button {
+    grid-column: 1 / span 2;
+}
+
+.container-main h1,
+.container-main h2,
+.container-main h3,
+.container-main h4 {
+    grid-column: 1 / span 2;
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+#setGap {
+    background-color: #b6b0a9;
+}
+
+#growBox1 {
+    background-color: #b6b0a9;
+}
+
+#growBox2 {
+    background-color: #b6b0a9;
+}
+
+#growBox3 {
+    background-color: #b6b0a9;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+}
