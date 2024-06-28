@@ -1,5 +1,4 @@
 body {
-    font-family: Arial;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -10,7 +9,6 @@ body {
 }
 
 .container-main {
-    font-family: Arial;
     width: 450px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -19,7 +17,6 @@ body {
 }
 
 .container-secondary {
-    font-family: Arial;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid black;
@@ -30,7 +27,6 @@ body {
 }
 
 .custom-box {
-    font-family: Arial;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,22 +42,20 @@ body {
 
 #customBox1 {
     background-color: rgb(236, 193, 229);
+    font-size: 50px;
 }
 
 #customBox2 {
-    background-color: #ff4646;
+    background-color: #89d373;
+    font-size: 50px;
 }
 
 #customBox3 {
     background-color: #f1ae70;
-}
-
-#customBox1, #customBox2, #customBox3 {
     font-size: 50px;
 }
 
 .button {
-    font-family: Arial;
     background-color: rgb(154, 192, 143);
     color: white;
     padding: 10px;
@@ -73,7 +67,7 @@ body {
 }
 
 .button:hover {
-    background-color: #a86add;
+    background-color: #456647;
 }
 
 .main-button {
